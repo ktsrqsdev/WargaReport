@@ -1,1 +1,54 @@
 @import "tailwindcss";
+
+:root {
+    --font-f: "Fraunces", serif;
+    --font-ps: "Public Sans", sans-serif;
+    --font-pm: "IBM Plex Mono", monospace;
+ 
+    --gutter: 76.5px;
+    --pd: 0 var(--gutter);
+ 
+    --bg-primary: #f7f2e7;
+    --bd-primary: #d7cbb6;
+    --bg-secondary: #fffdf8;
+    --bd-secondary: #e8e0d1;
+ 
+    --btn-alert: #fffdf8;
+    --bg-alert: #f9eae5;
+    --bd-alert: 1px solid #a33f3147;
+    --txt-alert: #a33f31;
+ 
+    --disabled: #4c5b52;
+    --disabled2: #84928a;
+    --dark: #13231b;
+    --light: #ffffff;
+    --green: #217a51;
+    --success: #0f6b4f;
+    --light-green: #e6f2eb;
+    --danger: #9b2f1f;
+ 
+    --bg-submitted: #f4efe4;
+    --bd-submitted: 1px solid #e8e0d1;
+    --txt-submitted: #4c5b52;
+    --bg-received: #e6f2eb;
+    --bd-received: 1px solid #0f6b4f40;
+    --txt-received: #0f6b4f;
+    --bg-review: #fbf1d8;
+    --bd-review: 1px solid #96680f40;
+    --txt-review: #96680f;
+    --bg-assigned: #e8f1f5;
+    --bd-assigned: 1px solid #2f607e40;
+    --txt-assigned: #2f607e;
+    --bg-awaiting: #fbf1d8;
+    --bd-awaiting: 1px solid #96680f40;
+    --txt-awaiting: #96680f;
+    --bg-resolved: #e5f3ea;
+    --bd-resolved: 1px solid #217a5140;
+    --txt-resolved: #217a51;
+    --bg-closed: #f4efe4;
+    --bd-closed: 1px solid #e8e0d1;
+    --txt-closed: #84928a;
+ 
+    --dark-70: color-mix(in srgb, var(--dark) 70%, transparent);
+    --green-20: color-mix(in srgb, var(--green) 20%, transparent); 
+}
