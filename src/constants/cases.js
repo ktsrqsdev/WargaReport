@@ -109,5 +109,4 @@ export const DEMO_CASES = [
     },
 ];
 
-// Kasus demo yang "dimiliki" akun demo
 export const DEMO_ACCOUNT_CASE_IDS = ["CMP-2026-9472", "CMP-2026-8841"];

@@ -46,7 +46,6 @@ export const DEMO_NOTIFICATIONS = [
     },
 ];
 
-// Urutan harus sama dengan checkbox di halaman Account > Notifications
 export const NOTIFICATION_PREFERENCES = [
     { label: "Status changes on my complaints", defaultValue: true },
     { label: "Replies from field officers", defaultValue: true },
