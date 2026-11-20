@@ -1,6 +1,7 @@
 export default function HomePage() {
     return (
         <>
+        <body className="bg-(--bg-primary) font-(family-name:--font-ps) text-(--dark) antialiased">
             <main>
                 <section className="mx-auto w-full max-w-7xl px-5 md:px-(--gutter) flex flex-col gap-4.25 py-10">
                     <h1 className="max-w-160 font-(family-name:--font-f) text-[clamp(2rem,5vw,3.125rem)] font-semibold leading-[1.06] tracking-tight">
@@ -630,6 +631,7 @@ export default function HomePage() {
                     </div>
                 </section>
             </main>
+        </body>
         </>
     );
 }
