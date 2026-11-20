@@ -1,6 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
-// Mengganti label tombol sementara (mis. "Profile saved") lalu kembali normal.
 export default function useFlash(duration = 1500) {
     const [text, setText] = useState(null);
     const timer = useRef(null);

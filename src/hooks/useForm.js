@@ -1,6 +1,5 @@
 import { useCallback, useState } from "react";
 
-// State form sederhana: values + pesan error yang otomatis hilang saat user mengetik.
 export default function useForm(initialValues) {
     const [values, setValues] = useState(initialValues);
     const [error, setError] = useState("");
