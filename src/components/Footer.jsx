@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 export default function Footer() {
     return (
     <>
@@ -21,24 +23,20 @@ export default function Footer() {
                     </h2>
                     <ul className="flex flex-col gap-2.5 text-[13px] text-(--disabled)">
                         <li>
-                            <a href="#" className="hover:text-(--dark)">
-                                File a report
-                            </a>
+                            <Link to="/report/topic" className="hover:text-(--dark)">
+                                File a report</Link>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-(--dark)">
-                                Track complaint
-                            </a>
+                            <Link to="/track" className="hover:text-(--dark)">
+                                Track complaint</Link>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-(--dark)">
-                                Public reports registry
-                            </a>
+                            <Link to="/live-feed" className="hover:text-(--dark)">
+                                Public reports registry</Link>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-(--dark)">
-                                My filing history
-                            </a>
+                            <Link to="/account/complaints" className="hover:text-(--dark)">
+                                My filing history</Link>
                         </li>
                     </ul>
                 </div>
@@ -48,19 +46,16 @@ export default function Footer() {
                     </h2>
                     <ul className="flex flex-col gap-2.5 text-[13px] text-(--disabled)">
                         <li>
-                            <a href="#" className="hover:text-(--dark)">
-                                Participating bureaus
-                            </a>
+                            <span>
+                                Participating bureaus</span>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-(--dark)">
-                                Officer triage queue
-                            </a>
+                            <span>
+                                Officer triage queue</span>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-(--dark)">
-                                SLA benchmarks
-                            </a>
+                            <span>
+                                SLA benchmarks</span>
                         </li>
                     </ul>
                 </div>
@@ -70,19 +65,16 @@ export default function Footer() {
                     </h2>
                     <ul className="flex flex-col gap-2.5 text-[13px] text-(--disabled)">
                         <li>
-                            <a href="#" className="hover:text-(--dark)">
-                                Help &amp; FAQs
-                            </a>
+                            <Link to="/help" className="hover:text-(--dark)">
+                                Help &amp; FAQs</Link>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-(--dark)">
-                                Evidence guidelines
-                            </a>
+                            <span>
+                                Evidence guidelines</span>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-(--dark)">
-                                PII &amp; redaction policy
-                            </a>
+                            <span>
+                                PII &amp; redaction policy</span>
                         </li>
                     </ul>
                 </div>
