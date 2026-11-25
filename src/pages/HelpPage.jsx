@@ -1,7 +1,6 @@
 export default function HelpPage() {
     return (
         <>
-            <body className="bg-(--bg-primary) font-(family-name:--font-ps) text-(--dark) antialiased">
                 <main className="mx-auto w-full max-w-7xl px-5 md:px-(--gutter) pb-4 pt-12 bg-(--bg-primary)">
                     <p className="mb-2 font-(family-name:--font-pm) text-[11px] uppercase tracking-widest text-(--disabled2)">
                         Citizen Help
@@ -519,7 +518,6 @@ export default function HelpPage() {
                         </div>
                     </div>
                 </main>
-            </body>
-        </>
+                    </>
     );
 }
