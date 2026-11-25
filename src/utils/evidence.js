@@ -23,3 +23,15 @@ export function summarizeEvidence(evidence) {
         .map(([total, label]) => `${total} ${label}${total > 1 ? "s" : ""}`);
     return parts.join(", ") || "no files";
 }
+
+export function getThumbnail(report) {
+    if (!report || !report.evidence) return null;
+
+    for (const item of report.evidence) {
+        if (item.type === "photo") {
+            return item.image;
+        }
+    }
+
+    return null;
+}
